@@ -19,20 +19,55 @@ Este projeto foi desenvolvido com foco em **arquitetura limpa, boas práticas e 
 
 ## ✨ Funcionalidades
 
-✅ Classificação automática de despesas  
-✅ API REST estruturada  
-✅ Integração com banco de dados  
-✅ Estrutura preparada para IA  
-✅ Organização em camadas (Controller, Service, Repository)  
+ Classificação automática de despesas  
+ API REST estruturada  
+ Integração com banco de dados  
+ Estrutura preparada para IA  
+ Organização em camadas (Controller, Service, Repository)  
 
 ---
 
 ## 🧠 Exemplo de uso
+```
+📥 Entrada
+  {  "descricao": "Uber viagem", "valor": 30}
 
-### 📥 Entrada
+📥 Saída
 
-```json
-{
-  "descricao": "Uber viagem",
-  "valor": 30
-}
+{  "id": 1, "descricao": "Uber viagem", "valor": 30.0,
+  "categoria": "Transporte"}
+```
+
+## 🛠️ Tecnologias Utilizadas
+
+☕ Java 17
+
+🚀 Spring Boot
+
+📦 Maven
+
+🗄️ JPA / Hibernate
+
+💾 H2 Database
+
+🔧 Lombok
+
+## 🏗️ Arquitetura
+O projeto segue uma arquitetura em camadas:
+controller → recebe requisições
+service → lógica de negócio (inteligência)
+repository → acesso ao banco
+model → entidades
+
+## 💼 Objetivo do Projeto
+Este projeto foi desenvolvido para:
+
+Demonstrar habilidades em Java Backend
+Aplicar boas práticas de arquitetura
+Criar um sistema com potencial real de mercado
+Evoluir para uma aplicação com IA integrada
+
+
+## 👨‍💻 Autor
+Filipe Cardoso
+
