@@ -40,15 +40,15 @@ Este projeto foi desenvolvido com foco em **arquitetura limpa, boas práticas e 
 
 ## 🛠️ Tecnologias Utilizadas
 
-☕ Java 17
+ Java 17
 
-🚀 Spring Boot
+ Spring Boot
 
-📦 Maven
+ Maven
 
-🗄️ JPA / Hibernate
+ JPA / Hibernate
 
-💾 H2 Database
+ H2 Database
 
 🔧 Lombok
 
