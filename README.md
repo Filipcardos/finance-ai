@@ -17,7 +17,7 @@ Este projeto foi desenvolvido com foco em **arquitetura limpa, boas práticas e 
 
 ---
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
  Classificação automática de despesas  
  API REST estruturada  
@@ -27,7 +27,7 @@ Este projeto foi desenvolvido com foco em **arquitetura limpa, boas práticas e 
 
 ---
 
-## 🧠 Exemplo de uso
+##  Exemplo de uso
 ```
 📥 Entrada
   {  "descricao": "Uber viagem", "valor": 30}
@@ -52,14 +52,14 @@ Este projeto foi desenvolvido com foco em **arquitetura limpa, boas práticas e 
 
 🔧 Lombok
 
-## 🏗️ Arquitetura
+##  Arquitetura
 O projeto segue uma arquitetura em camadas:
 controller → recebe requisições
 service → lógica de negócio (inteligência)
 repository → acesso ao banco
 model → entidades
 
-## 💼 Objetivo do Projeto
+##  Objetivo do Projeto
 Este projeto foi desenvolvido para:
 
 Demonstrar habilidades em Java Backend
